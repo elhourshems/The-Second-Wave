@@ -1,0 +1,28 @@
+INSERT INTO categories (name)
+VALUES ('Longboard'),
+       ('Shortboard'),
+       ('Funboard'),
+       ('Fish'),
+       ('Gun'),
+       ('Soft-top');
+INSERT INTO products (name, price, description, category_id)
+VALUES ('Firewire Seaside 5''8"', 895.00, 'A fast, playful groveler with a wide outline and quad-fin setup for small to medium waves.', 4),
+       ('Channel Islands Happy Everyday 6''0"', 775.00, 'A versatile performance shortboard with forgiving rails for everyday beach-break conditions.', 2),
+       ('Takayama In the Pink 9''2"', 1325.00, 'A classic noserider longboard with a refined rocker and pin tail for smooth trim.', 1),
+       ('HaydenShapes Hypto Krypto 6''4"', 810.00, 'A balanced funboard with extra volume and a rounded pin tail for easy paddling and confident turns.', 3),
+       ('Pyzel Next Step 6''8"', 835.00, 'A step-up gun designed for overhead surf, featuring a pulled-in tail and controlled speed.', 5),
+       ('Softech Roller 7''0"', 425.00, 'A durable soft-top with a wide outline and removable fins, ideal for beginners and small surf.', 6),
+       ('Bing Levitator 9''6"', 1480.00, 'A high-volume longboard that blends classic glide with modern rail performance.', 1),
+       ('Lost RNF 96 5''10"', 790.00, 'A modern fish with a fuller nose and five-fin setup for quick acceleration in weak waves.', 4),
+       ('JS Industries Monsta 10 5''11"', 760.00, 'A high-performance shortboard with responsive rails and a refined squash tail.', 2),
+       ('Catch Surf Odysea Log 8''0"', 495.00, 'A stable, soft-top longboard with generous volume for easy wave catching and progression.', 6),
+       ('Thunderbolt CJ Nelson Sprout 9''4"', 1495.00, 'A lightweight noserider with a wide template and smooth rail-to-rail transitions.', 1),
+       ('SharpEye Inferno 72 6''1"', 805.00, 'A fast, responsive shortboard built for clean faces and progressive turns.', 2),
+       ('Torq Mod Fun 7''2"', 625.00, 'A user-friendly funboard with durable epoxy construction and generous paddle power.', 3),
+       ('Christenson Fish 5''6"', 1050.00, 'A traditional twin-fin fish with a low rocker for effortless speed and flow.', 4),
+       ('Rusty Desert Island 7''2"', 860.00, 'A confidence-inspiring step-up gun with extra foam under the chest for bigger surf.', 5),
+       ('Gerry Lopez Little Darlin 6''0"', 410.00, 'A compact soft-top with a forgiving deck and tri-fin setup for playful sessions.', 6),
+       ('Donald Takayama Scorpion 7''6"', 1190.00, 'A versatile mid-length that combines longboard glide with a tighter turning radius.', 3),
+       ('Firewire Glazer 6''6"', 925.00, 'A versatile all-rounder with a full outline and controlled performance in varied conditions.', 3),
+       ('Album Plasmic 5''7"', 1125.00, 'A high-volume twin-fin fish that carries speed through flat sections.', 4),
+       ('Pyzel Padillac 7''6"', 960.00, 'A dependable big-wave gun with a refined rocker and secure hold at speed.', 5);
